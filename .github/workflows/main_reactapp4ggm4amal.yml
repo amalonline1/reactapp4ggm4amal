@@ -32,6 +32,7 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: 'reactapp4ggm4amal' # Replace YOUR_APP_NAME with your Azure App Service name
-        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }} # Store publish profile in GitHub secrets
+        publish-profile: ${{ secrets.appsec1 }} # Store publish profile in GitHub secrets
         package: '.' # This should be the root of your app or the output directory of build command
+
 
